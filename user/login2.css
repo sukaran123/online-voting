@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+div
+{
+		background: rgb(255,140,0);
+}
+div 
+{
+	height: 100px;
+	width:100%;
+}
+div h1 img
+{
+	height: 100px;
+}
+
+div img
+{
+
+}
+#high
+{
+	color:rgb(139,0,0) ;
+	font-stretch: 200%;
+}
+
+h2
+{
+  color:red;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+body
+ 
+
+{
+	background-image: url("a.jpg");
+	position:relative;
+	height:device-height;
+        width: device-width;
+	z-index: -3;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: rgb(255,165,0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  text-decoration-color: white;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-decoration-color: yellow;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration-color: white;
+  }
+}
+.card {
+  position: relative;
+  height: 500px;
+  top: 150px;
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  padding: 10px;
+
+  text-align: center;
+  background: black;
+  text-decoration-color:white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+

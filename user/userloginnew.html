@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>USER LOGIN | ELECTIONS 2020 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body
+
+     {
+      background-color: "red";
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url('../img/vote_new.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+
+
+h2 {
+  text-align: left;
+  text-decoration: underline;
+  color:rgb(208, 211, 233);
+  font-size: 40px;
+  
+}
+    * {
+      font-family: Georgia, Serif;
+    }
+
+.input-container {
+  display: -ms-flexbox; 
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: rgb(224, 120, 0);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border-radius: 15px 50px 30px 5px;
+  color: rgb(0, 0, 0);
+  
+}
+
+.input-field:focus {
+  border: 2px solid red;
+  color: rgb(0, 0, 0);
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgb(1, 211, 47);
+  color: white;
+  padding: 15px 20px;
+  border: round;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  border-radius: 15px 50px;
+}
+
+
+
+.resetbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+  color:white;
+  border-radius: 30px 30px;
+}
+
+.imgcontainer {
+      text-align: center;
+      margin: 60px;
+    }
+
+    img.avatar {
+      width: 15%;
+      border-radius: 70%;
+    }
+
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+        
+<form action="../constituency/yourcandidate1.html" style="max-width:1000px;margin:auto">
+  <h2>   USER LOGIN  </h2>
+
+  <div class="imgcontainer">
+
+    <img src="" alt="" class="">
+  </div>
+
+  <div class="input-container" >
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm" title="MAIL ID USED FOR REGISTRATION" required>
+
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" id="myInput" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="PASSWORD ENTERED DURING REGISTRATION" required>
+    </div>
+
+    <input type="checkbox" onclick="myFunction()">Show password
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script>
+    
+    <p>
+      
+    </p>
+
+  <span class="psw"><a style="color:rgb(16, 0, 156);" href="#">Forgot password?</a></span>
+
+  <p>                      
+      
+    <a style="color: rgb(255, 0, 0)" href="userreg.html">Not Registered?</a>
+  </p>
+
+  <p>
+
+    <a style="color: rgb(255, 0, 0)" href="main2.html">Not an User?</a>
+  </p>
+
+  <button type="submit" class="btn">LOGIN</button>
+
+  <p>                      
+      
+    
+  </p>
+
+  <input type="checkbox" checked="checked" name="remember"> Remember me
+</label>
+</div>
+
+<p>                      
+      
+    
+</p>
+
+<div class="container" style="background-color:transparent">
+  <input type="reset" class="resetbtn" value="Reset">
+
+
+</div>
+
+</form>
+
+</body>
+</html>
